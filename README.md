@@ -1,7 +1,7 @@
 
 # stay
 
-Persistent scuttlebutt instances in browser and node
+Persistent scuttlebutt instances for browser and node
 
 `stay` provides a wrapper around
 
