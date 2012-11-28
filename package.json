@@ -1,6 +1,6 @@
 {
   "name": "stay",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Persistent scuttlebutt instances for browser and node",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "tape": "0.0.5"
   },
   "dependencies": {
-    "kv": "~1.0.6"
+    "kv": "git://github.com/juliangruber/kv.git#21d3df0b581322d2949551fa059cbaf0bc55b063"
   },
   "testling": {
     "files": "test.js",
