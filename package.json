@@ -30,10 +30,10 @@
   "testling": {
     "files": "test.js",
     "browsers": {
-      "ie": [7, 8, 9],
+      "ie": [7, 8, 9, 10],
       "ff": [13],
       "chrome": [20],
-      "safari": [5,1],
+      "safari": [5.1],
       "opera": [12]
     } 
   }
