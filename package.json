@@ -1,0 +1,40 @@
+{
+  "name": "stay",
+  "version": "0.0.1",
+  "description": "Persistent scuttlebutt instances in browser and node",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:juliangruber/stay.git"
+  },
+  "keywords": [
+    "persistent",
+    "scuttlebutt",
+    "persistence",
+    "localstorage",
+    "crdt",
+    "append-only"
+  ],
+  "author": "Julian Gruber <julian@juliangruber.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "scuttlebutt": "~4.1.1",
+    "tape": "0.0.5"
+  },
+  "dependencies": {
+    "kv": "~1.0.6"
+  },
+  "testling": {
+    "files": "test.js",
+    "browsers": {
+      "ie": [7, 8, 9],
+      "ff": [13],
+      "chrome": [20],
+      "safari": [5,1],
+      "opera": [12]
+    } 
+  }
+}
