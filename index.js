@@ -9,6 +9,13 @@ module.exports = function (path) {
     var ee = new EventEmitter()
     var kv = _kv(path)
 
+    if (typeof butts == 'string') {
+      var name = arguments[0]
+      var model = arguments[1]
+      butts = {}
+      butts[name] = model
+    }
+
     var names = Object.keys(butts)
     var toSync = names.length
 

@@ -1,6 +1,6 @@
 {
   "name": "stay",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Persistent scuttlebutt instances for browser and node",
   "main": "index.js",
   "scripts": {

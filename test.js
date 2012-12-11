@@ -12,7 +12,6 @@ test('storage clean', function (t) {
 
   A.set('foo', 'bar')
 
-
   stay(path)({
     'model' : A
   }).on('sync', function () {
@@ -32,6 +31,18 @@ test('storage dirty', function (t) {
   stay(path)({
     'model' : A
   })
+
+  A.on('sync', function () {
+    t.equal(A.get('foo'), 'bar')
+  })
+})
+
+test('short', function (t) {
+  t.plan(1)
+
+  var A = new Model()
+
+  stay(path)('model', A)
 
   A.on('sync', function () {
     t.equal(A.get('foo'), 'bar')

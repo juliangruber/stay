@@ -49,6 +49,12 @@ stay({
 })
 ```
 
+...and has a short mode
+
+```js
+stay('model', model)
+```
+
 ## license
 
 (MIT)
