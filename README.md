@@ -19,7 +19,7 @@ that works well with many instances, works in the browser using localStorage
 and propperly handles empty records
 (see [dominictarr/kv/pull/1](https://github.com/dominictarr/kv/pull/1))
 
-![testling ci](http://ci.testling.com/juliangruber/stay.png)
+[![browser support](http://ci.testling.com/juliangruber/stay.png)](http://ci.testling.com/juliangruber/stay)
 
 ## usage
 
